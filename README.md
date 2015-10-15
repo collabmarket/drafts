@@ -1,3 +1,3 @@
-# drafts
-Posts i am still working on and don’t want to publish yet in [Collabmarket.org](http://collabmarket.org/)
+# Drafts
+Posts i am still working on to publish in [Collabmarket.org](http://collabmarket.org/)
 
