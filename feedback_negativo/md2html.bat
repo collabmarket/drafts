@@ -2,7 +2,12 @@
 ::CMD will no longer show us what command it’s executing(cleaner)
 ECHO To convert MARKDOWN to HTML
 :: pandoc 
-pandoc "feedback_negativo.md" -f markdown -t html -o "feedback_negativo.html"
+for %%f in ("*.md") do (
+
+        echo %%f
+        pandoc "%%~nf.md" -f markdown -t html -o "%%~nf.html"
+    )
+
 ECHO All done. 
 ::Print some text
 PAUSE 
