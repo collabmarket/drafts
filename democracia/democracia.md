@@ -1,4 +1,4 @@
-# ¿Por qué los nuevos electores no votan? #
+<!--- ¿Por qué los nuevos electores no votan? -->
 
 > [Plutocracia][1]: Corresponde a la colusión entre los grandes grupos económicos y los líderes de las principales coaliciones políticas.
 
