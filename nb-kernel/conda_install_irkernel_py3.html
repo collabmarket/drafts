@@ -19,9 +19,10 @@ Activating environment &quot;C:\Users\USER\Anaconda\envs\r-env&quot;...`</code><
 <p>Two alternatives to install IRkernel</p>
 <ol style="list-style-type: decimal">
 <li><p>To install only User</p>
-<p>R&gt; IRkernel::installspec() Installed kernelspec R in C:</p></li>
+<pre><code>R&gt; IRkernel::installspec()
+Installed kernelspec R in C:\Users\USER\AppData\Roaming\jupyter\kernels\ir</code></pre></li>
 <li><p>To install system-wide</p>
-<p>R&gt; IRkernel::installspec(user = FALSE)</p></li>
+<pre><code>R&gt; IRkernel::installspec(user = FALSE)</code></pre></li>
 </ol>
 <h2 id="install-python-3-kernel">Install Python 3 Kernel</h2>
 <h3 id="in-anaconda-command-prompt">In Anaconda Command Prompt</h3>
@@ -31,9 +32,11 @@ C:\Users\USER\Anaconda&gt; activate py34
 <p>Two alternatives to install python3 kernel</p>
 <ol style="list-style-type: decimal">
 <li><p>To install only User</p>
-<p>[py34] C:&gt; ipython3 kernel install --user [InstallNativeKernelSpec] Installed kernelspec python3 in C:3</p></li>
+<pre><code>[py34] C:\Users\USER\Anaconda&gt; ipython3 kernel install --user
+[InstallNativeKernelSpec] Installed kernelspec python3 in C:\Users\USER\AppData\Roaming\jupyter\kernels\python3</code></pre></li>
 <li><p>To install system-wide</p>
-<p>[py34] C:&gt; ipython3 kernel install Installed kernelspec python3 in C:3</p></li>
+<pre><code>[py34] C:\Users\USER\Anaconda&gt; ipython3 kernel install
+Installed kernelspec python3 in C:\ProgramData\jupyter\kernels\python3</code></pre></li>
 </ol>
 <p>Check Available kernels</p>
 <pre><code>[py34] C:\Users\USER\Anaconda&gt; deactivate

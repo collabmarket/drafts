@@ -35,12 +35,12 @@ Two alternatives to install IRkernel
 
 1) To install only User
 
-    R> IRkernel::installspec()
-    Installed kernelspec R in C:\Users\USER\AppData\Roaming\jupyter\kernels\ir
+        R> IRkernel::installspec()
+        Installed kernelspec R in C:\Users\USER\AppData\Roaming\jupyter\kernels\ir
 
 2) To install system-wide
 
-    R> IRkernel::installspec(user = FALSE)
+        R> IRkernel::installspec(user = FALSE)
 
 ## Install Python 3 Kernel
 
@@ -49,17 +49,18 @@ Two alternatives to install IRkernel
     C:\Users\USER\Anaconda> conda create -n py34 python=3.4
     C:\Users\USER\Anaconda> activate py34
     [py34] C:\Users\USER\Anaconda> conda install notebook ipykernel
+
 Two alternatives to install python3 kernel
 
 1) To install only User
 
-    [py34] C:\Users\USER\Anaconda> ipython3 kernel install --user
-    [InstallNativeKernelSpec] Installed kernelspec python3 in C:\Users\USER\AppData\Roaming\jupyter\kernels\python3
+        [py34] C:\Users\USER\Anaconda> ipython3 kernel install --user
+        [InstallNativeKernelSpec] Installed kernelspec python3 in C:\Users\USER\AppData\Roaming\jupyter\kernels\python3
 
 2) To install system-wide
 
-    [py34] C:\Users\USER\Anaconda> ipython3 kernel install
-    Installed kernelspec python3 in C:\ProgramData\jupyter\kernels\python3
+        [py34] C:\Users\USER\Anaconda> ipython3 kernel install
+        Installed kernelspec python3 in C:\ProgramData\jupyter\kernels\python3
 
 Check Available kernels
 
