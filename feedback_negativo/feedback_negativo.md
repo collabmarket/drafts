@@ -1,16 +1,20 @@
-# Sociedad y retroalimentación negativa #
+<!--- Sociedad y retroalimentación negativa -->
 
-## Desarrollo sistema financiero ##
+Nuestra sociedad está rodeada y formada por múltiples [sistemas, cuya complejidad][9] es imposible de [reducir][11] [mecánicamente][10].
 
-La [retroalimentación la positiva][1] genera sistemas inestables y la [retroalimentación negativa][2] genera sistemas estables.
+Para tratar de entender como emerge la complejidad de estos sistemas, un primer paso es vislumbrar las interrelaciones entre las partes, por eso en este artículo revisaré: la [retroalimentación la positiva][1] genera sistemas inestables y la [retroalimentación negativa][2] genera sistemas estables.
 
-Un tipo de retroalimentación positiva en un mercado es la acumulación de utilidades a partir de las ventas, eso promueve el crecimiento de las empresas que lo hacen mejor que la competencia.
+Para aterrizar estos conceptos voy a ejemplificarlos en los siguientes sistemas ampliamente conocidos.
+
+## Desarrollo Sistema Financiero ##
+
+Un tipo de retroalimentación positiva en un mercado es [la acumulación de utilidades][8] a partir de las ventas, eso promueve el crecimiento orgánico de las empresas que lo hacen mejor que la competencia.
 
 La empresa grande crecen y adquieren poder económico relativamente superior por el uso de economías de escala, aumentan sus utilidades a través de la optimización sistemática de sus procesos. Esa optimización es fuente de fragilidad pues los productos escalan en complejidad, especialización y concentración que hace muy difícil innovar en la generación de nuevas soluciones, pues la inercia de la solución "core" de la empresa es muy grande.
 
 Finalmente por la [Ley de rendimientos decrecientes][3], el capital acumulado por las grandes empresas, pierde relevancia en el desarrollo de productos, se transforma en capital especulativo y se usa para crear barreras impidan el surgimiento de nuevos competidores o la creación de privilegios por colusión con el poder político.
 
-Cuando se produce una brecha muy grande entre las nuevas empresas competidoras que buscan ofrecer soluciones alternativas más baratas o eficaces a la oferta de las grandes, en el caso que logren una cuota de mercado no marginal, las empresas grandes tienen el poder económico para comprar la pequeña emergente y asimilar su tecnología en la empresa grande o descontinuar su uso y potenciar un reemplazo producido por la empresa grande.
+Cuando se produce una brecha muy grande entre las nuevas empresas competidoras que buscan ofrecer soluciones alternativas más baratas o eficaces a la oferta de las grandes, en el caso que logren una cuota de mercado no marginal, las empresas grandes tienen el poder económico para generar crecimiento inorgánico, comprar empresas pequeñas emergentes y asimilar su tecnología en la empresa grande o descontinuar su uso y potenciar un reemplazo por un producto producido por la empresa grande.
 
 Ese mercado a pesar de tener señales (prototipos) para evolucionar a soluciones alternativas, se mantiene de forma artificial en modelos de desarrollo financiados por grandes corporaciones, no por su méritos técnico o económico, si no por la inercia de su poder financiero.
 
@@ -18,7 +22,7 @@ Ese mercado a pesar de tener señales (prototipos) para evolucionar a soluciones
 
 El modelo de desarrollo con retroalimentación positiva está basado en el modelo de manufactura industrial y el modelo de retroalimentación negativa está basado en servicios.
 
-El modelo de desarrollo con retroalimentación positiva está basado en aumentar las ventas ofreciendo "mejoras" en base a criterios comerciales distorsionados por la publicidad y el marketing, el modelo de retroalimentación negativa está basado en resolver el **backlog del proyecto** y cobrar la recompensa que ofrecen los clientes por implementar el nuevo requerimiento o parchar un bug.
+El modelo de desarrollo tradicional con retroalimentación positiva está basado en aumentar las ventas ofreciendo "mejoras" en base a criterios comerciales distorsionados por la publicidad y el marketing, el modelo [Opensource][7] de retroalimentación negativa está basado en resolver el **backlog del proyecto** y cobrar la recompensa que ofrecen los clientes por implementar el nuevo requerimiento o parchar un bug.
 
 La noción de comunidad que desarrolla el software de forma colaborativa, es posible gracias al uso de herramientas como "sistemas de control de versiones" e issues trackers. Esa cultura diferencia los [dictadores benevolentes][4] de la [ley de hierro del las oligarquías][5]. 
 
@@ -39,6 +43,11 @@ En un próximo artículo voy a tratar de complementar la estabilidad de las orga
 [4]: http://es.wikipedia.org/wiki/Benevolent_Dictator_for_Life "Wikipedia: Dictadores Benevolentes"
 [5]: https://es.wikipedia.org/wiki/Robert_Michels "Wikipedia: Ley de hierro de las oligarquías"
 [6]: http://www.javiergarzas.com/2015/05/catedral-bazar.html "Catedral y el Bazar"
+[7]: http://collabmarket.org/2007/12/03/que-es-el-opensource/ "¿Qué es el opensource?"
+[8]: http://collabmarket.org/2010/12/24/costos-fijos-en-el-modelo-economico-actual/ "Lucro y el rol social del Capitalismo"
+[9]: https://es.wikipedia.org/wiki/Sistema_complejo "Wikipedia:Sistema Complejo"
+[10]: https://es.wikipedia.org/wiki/Teor%C3%ADa_de_la_computabilidad "Wikipedia:Teoría de la computabilidad"
+[11]: https://es.wikipedia.org/wiki/Reducci%C3%B3n_(filosof%C3%ADa) "Wikipedia:Reducción (filosofía)"
 
 - Nassim Nicholas Taleb, 2012. Antifragile: Things That Gain from Disorder. Random House Publishing Group.
 - Raymond, E.S., 2000. El caldero mágico. Documento online.
