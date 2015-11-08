@@ -66,6 +66,7 @@ Check Available kernels
 
 Now on jupyter notebook
 
+![](https://raw.githubusercontent.com/collabmarket/drafts/master/nb-kernel/nb-kernel.png)
 
 ## Reference
 
