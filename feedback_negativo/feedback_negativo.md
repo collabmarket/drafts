@@ -6,11 +6,15 @@ Para tratar de entender como emerge la complejidad de estos sistemas, un primer 
 
 Para aterrizar estos conceptos voy a ejemplificarlos en los siguientes sistemas ampliamente conocidos.
 
+- Sistema Financiero
+- Desarrollo de software (conocimiento)
+- Sistema Democracia Indirecta
+
 ## Desarrollo Sistema Financiero ##
 
 Un tipo de retroalimentación positiva en un mercado es [la acumulación de utilidades][8] a partir de las ventas, eso promueve el crecimiento orgánico de las empresas que lo hacen mejor que la competencia.
 
-La empresa grande crecen y adquieren poder económico relativamente superior por el uso de economías de escala, aumentan sus utilidades a través de la optimización sistemática de sus procesos. Esa optimización es fuente de fragilidad pues los productos escalan en complejidad, especialización y concentración que hace muy difícil innovar en la generación de nuevas soluciones, pues la inercia de la solución "core" de la empresa es muy grande.
+La empresa grande crecen y adquieren poder económico relativamente superior por el uso de economías de escala, aumentan sus utilidades a través de la optimización sistemática de sus procesos. Esa optimización es fuente de fragilidad pues los productos escalan en especialización (complicados) y concentración (optimización) que hace muy difícil innovar en la generación de nuevas soluciones, pues la inercia de la solución "core" de la empresa es muy grande.
 
 Finalmente por la [Ley de rendimientos decrecientes][3], el capital acumulado por las grandes empresas, pierde relevancia en el desarrollo de productos, se transforma en capital especulativo y se usa para crear barreras impidan el surgimiento de nuevos competidores o la creación de privilegios por colusión con el poder político.
 
@@ -32,10 +36,29 @@ Hay dos maneras de enfrentar un desarrollo:
  
  b) El [modelo Bazar][6], en el que se desarrolla el código a través de Internet, a la vista del público, con lo que con mayor frecuencia el desarrollo está expuesto a mucha más gente y que, derivándolo al popular modelo “cloud” vendría a ser que la versión está constantemente expuesta muchos usuarios. Raymond acredita a Linus Torvalds como el inventor de este proceso (yo pienso que de esto se lleva hablando, con algunas diferencias, desde ya la época de los '50). Manera de trabajar que relaciona con el “entrega una versión pronto y entrega frecuentemente”, que hoy algunos llamarán continuous delivery, agile deployment, etc.
 
+## Sistema Democracia Indirecta ##
+
+Un tipo de retroalimentación positiva son las elecciones periódicas, donde las características de este mecanismo son:
+
+ - La confianza (voto) asigna de manera discreta o puntual el poder en los representantes.
+ - Los candidatos tienden a [agruparse en partidos políticos, para competir][12].
+ - Sólo en los períodos de campaña los votantes se informan de "programa de gobierno", "promesas de campaña" y "curriculum" de postulantes.
+ - Cada votante "pronostica" que candidato generará el mayor bienestar social.
+ - Sólo en la elección siguiente el votante ["puede evaluar" el bienestar real][14] que generó el candidato electo durante su mandato.
+
+Existen innumerables problemas en la implementación de la democracia directa, pero sólo nombraré el relacionado con la retroalimentación positiva. Al votar los ciudadanos sólo pueden "reasignar" el poder político que crece y se concentra con cada elección, [no existe mecanismo explícitos dentro del sistema para quitar poder][13], sólo existen mecanismo de "fusible", que estallan cuando los problemas son muy graves (marchas, huelgas, protestas, revoluciones, golpes, etc.)
+
+## Conclusiones ##
+
 En este artículo mezclo la fragilidad y la inestabilidad, me falta trabajar su relación con los mecanismos de retroalimentación.
 En un próximo artículo voy a tratar de complementar la estabilidad de las organizaciones sociales, con el concepto de fragilidad y anti-fragilidad, la primera presente en las grandes organizaciones jerárquicas y centralizadas que tienden a la competencia y la segunda presente en organizaciones más horizontales formadas por redes de cooperación.
 
-### Referencias y Bibliografía ###
+
+## Referencias y Bibliografía ##
+
+- Nassim Nicholas Taleb, 2012. Antifragile: Things That Gain from Disorder. Random House Publishing Group.
+- Raymond, E.S., 2000. El caldero mágico. Documento online.
+- Raymond, E.S., 2001. The Cathedral & the Bazaar: Musings on linux and open source by an accidental revolutionary.  O’Reilly Media, Inc.
 
 [1]: https://es.wikipedia.org/wiki/Realimentaci%C3%B3n_positiva "Wikipedia: Retroalimentación Positiva"
 [2]: https://es.wikipedia.org/wiki/Realimentaci%C3%B3n_negativa "Wikipedia: Retroalimentación Negativa"
@@ -48,7 +71,6 @@ En un próximo artículo voy a tratar de complementar la estabilidad de las orga
 [9]: https://es.wikipedia.org/wiki/Sistema_complejo "Wikipedia:Sistema Complejo"
 [10]: https://es.wikipedia.org/wiki/Teor%C3%ADa_de_la_computabilidad "Wikipedia:Teoría de la computabilidad"
 [11]: https://es.wikipedia.org/wiki/Reducci%C3%B3n_(filosof%C3%ADa) "Wikipedia:Reducción (filosofía)"
-
-- Nassim Nicholas Taleb, 2012. Antifragile: Things That Gain from Disorder. Random House Publishing Group.
-- Raymond, E.S., 2000. El caldero mágico. Documento online.
-- Raymond, E.S., 2001. The Cathedral & the Bazaar: Musings on linux and open source by an accidental revolutionary.  O’Reilly Media, Inc.
+[12]: http://collabmarket.org/2007/08/20/una-nueva-forma-de-organizacion-politica/ "Nueva forma organización política"
+[13]: http://collabmarket.org/2015/10/18/por-que-los-nuevos-electores-no-votan/ "Nuevos electores no votan"
+[14]: http://collabmarket.org/2015/03/17/politica-basada-en-evidencia/ "Política basada en evidencia"
