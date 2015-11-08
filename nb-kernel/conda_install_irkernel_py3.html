@@ -1,0 +1,49 @@
+<!--- Jupyter Install IRkernel and Python 3 kernel on Windows -->
+<p>R and python3 will be installed in separated enviroment using <a href="https://www.continuum.io/downloads" title="Download Anaconda">Anaconda distribution</a>.</p>
+<h2 id="install-irkernel">Install IRkernel</h2>
+<h3 id="in-anaconda-command-prompt.">In Anaconda Command Prompt.</h3>
+<p>Create r-env a new environment just for &quot;R essentials&quot;</p>
+<pre><code>&gt; conda create -n r-env</code></pre>
+<p>Activate r-env</p>
+<pre><code>C:\Users\USER\Anaconda&gt; activate r-env
+Activating environment &quot;C:\Users\USER\Anaconda\envs\r-env&quot;...`</code></pre>
+<p>Install R</p>
+<pre><code>[r-env] C:\Users\USER\Anaconda&gt; conda install -c r r-essentials</code></pre>
+<p>Update R env</p>
+<pre><code>[r-env] C:\Users\USER\Anaconda&gt; conda update -c r --all</code></pre>
+<p>Open an R console</p>
+<pre><code>[r-env] C:\Users\USER\Anaconda&gt; R</code></pre>
+<h3 id="in-an-r-console">In an R console</h3>
+<pre><code>&gt; install.packages(c(&#39;rzmq&#39;,&#39;repr&#39;,&#39;IRkernel&#39;,&#39;IRdisplay&#39;),
+             repos = c(&#39;http://irkernel.github.io/&#39;, getOption(&#39;repos&#39;)))</code></pre>
+<p>Two alternatives to install IRkernel 1) To install only User</p>
+<pre><code>&gt; IRkernel::installspec()
+Installed kernelspec R in C:\Users\USER\AppData\Roaming\jupyter\kernels\ir</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><p>To install system-wide</p>
+<blockquote>
+<p>IRkernel::installspec(user = FALSE)</p>
+</blockquote></li>
+</ol>
+<h2 id="install-python-3-kernel">Install Python 3 Kernel</h2>
+<h3 id="in-anaconda-command-prompt">In Anaconda Command Prompt</h3>
+<pre><code>&gt; conda create -n py34 python=3.4
+&gt; activate py34
+&gt; conda install notebook ipykernel</code></pre>
+<p>Two alternatives to install python3 kernel</p>
+<ol style="list-style-type: decimal">
+<li><p>To install only User</p>
+<p>[py35] C:&gt; ipython3 kernel install --user [InstallNativeKernelSpec] Installed kernelspec python3 in C:3</p></li>
+<li><p>To install system-wide</p>
+<p>[py35] C:&gt; ipython3 kernel install Installed kernelspec python3 in C:3</p></li>
+</ol>
+<p>Check Available kernels</p>
+<pre><code>&gt; jupyter kernelspec list</code></pre>
+<p>Now on jupyter notebook</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://www.continuum.io/blog/developer/jupyter-and-conda-r">Jupyter and Conda R</a></li>
+<li><a href="http://irkernel.github.io/installation/">Irkernel Installation</a></li>
+<li><a href="http://stackoverflow.com/questions/28831854/how-do-i-add-python3-kernel-to-jupyter-ipython">Pyton 3 kernel</a></li>
+<li><a href="http://ipython.readthedocs.org/en/stable/install/kernel_install.html">Ipython kernel</a></li>
+</ul>
