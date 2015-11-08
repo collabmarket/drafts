@@ -1,13 +1,14 @@
 <!--- Jupyter Install IRkernel and Python 3 kernel on Windows -->
 
-R and python3 will be installed in separated enviroment using [Anaconda distribution][1].
+R and python3 will be installed in separated environment using [Anaconda distribution][1]. Jupyter is already installed in root environment.
 
 ## Install IRkernel
 ###In Anaconda Command Prompt.
 
 Create r-env a new environment just for "R essentials"
 
-    > conda create -n r-env
+    C:\Users\USER\Anaconda> conda create -n r-env
+
 Activate r-env
 
     C:\Users\USER\Anaconda> activate r-env
@@ -27,44 +28,51 @@ Open an R console
 
 ### In an R console
 
-    > install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
+    R> install.packages(c('rzmq','repr','IRkernel','IRdisplay'),
                  repos = c('http://irkernel.github.io/', getOption('repos')))
 
 Two alternatives to install IRkernel
+
 1) To install only User
 
-    > IRkernel::installspec()
+    R> IRkernel::installspec()
     Installed kernelspec R in C:\Users\USER\AppData\Roaming\jupyter\kernels\ir
 
 2) To install system-wide
 
-    > IRkernel::installspec(user = FALSE)
+    R> IRkernel::installspec(user = FALSE)
 
 ## Install Python 3 Kernel
 
 ### In Anaconda Command Prompt
 
-    > conda create -n py34 python=3.4
-    > activate py34
-    > conda install notebook ipykernel
-
+    C:\Users\USER\Anaconda> conda create -n py34 python=3.4
+    C:\Users\USER\Anaconda> activate py34
+    [py34] C:\Users\USER\Anaconda> conda install notebook ipykernel
 Two alternatives to install python3 kernel
 
 1) To install only User
 
-    [py35] C:\Users\USER\Anaconda> ipython3 kernel install --user
+    [py34] C:\Users\USER\Anaconda> ipython3 kernel install --user
     [InstallNativeKernelSpec] Installed kernelspec python3 in C:\Users\USER\AppData\Roaming\jupyter\kernels\python3
 
 2) To install system-wide
 
-    [py35] C:\Users\USER\Anaconda> ipython3 kernel install
+    [py34] C:\Users\USER\Anaconda> ipython3 kernel install
     Installed kernelspec python3 in C:\ProgramData\jupyter\kernels\python3
 
 Check Available kernels
 
-    > jupyter kernelspec list
+    [py34] C:\Users\USER\Anaconda> deactivate
+    C:\Users\USER\Anaconda> jupyter kernelspec list
+    Available kernels:
+      python2    C:\Users\USER\Anaconda\lib\site-packages\ipykernel\resources
+      ir         C:\Users\USER\AppData\Roaming\jupyter\kernels\ir
+      python3    C:\Users\USER\AppData\Roaming\jupyter\kernels\python3
 
 Now on jupyter notebook
+
+    C:\Users\USER\Anaconda> jupyter notebook
 
 ![](https://raw.githubusercontent.com/collabmarket/drafts/master/nb-kernel/nb-kernel.png)
 
