@@ -1,6 +1,8 @@
 <!--- El flujo del dinero -->
 
-Dos conceptos nuevos:
+En este artículo voy a tratar múltiples ideas sin una referencia previa, por lo que requieren validarse con otros antecedentes.
+
+
 
 1. El código como una magnitud física adicional a otras como la energía, materia, espacio y tiempo.
 2. El dinero es un trazador.
@@ -18,7 +20,6 @@ La inercia económica nos mueve a seguir ganando, gastando e invirtiendo en aque
 [2]: https://www.youtube.com/watch?v=f6BvX2nJDZw "Del reduccionismo al holismo"
 [3]: https://www.youtube.com/watch?v=q6ZPHMAPsP0 "National Water Account Australia 2013–14"
 [4]: http://www.bom.gov.au/water/nwa/ "Bureau of Meteorology Australia"
-
-
+[4]: http://web.sofofa.cl/informacion-economica/indicadores-economicos/estructura-de-la-industria/balanza-comercial/ "Balanza Comercial Chile"
 
 
