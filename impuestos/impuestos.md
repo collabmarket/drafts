@@ -16,7 +16,7 @@ Esta es una pequeña investigación, que me resultó de ver la siguiente frase d
 
 > ...Cae en un error conceptual diciendo que la mayoria de los impuestos en Chile los pagan los ricos. En $$ puede ser pero en % de sus ingresos son los pobres lo que pagan más. El ni siquiera puede hacer esa diferenciacion.﻿
 
-No tengo claro que es mejor, poner inmediatamente el resultado o poner como se calcula, para mí lo realmente interesante es lo segundo, porque nos da una idea de como funciona el sistema tributario y como aportamos los ciudadanos al financiamiento del Estado, pero voy a poner el resultado primero, porque "a la mayoría le da pereza leer más de 120 caracteres.
+No tengo claro que es mejor, poner inmediatamente el resultado o poner como se calcula, para mí lo realmente interesante es lo segundo, porque nos da una idea de como funciona el sistema tributario y como aportamos los ciudadanos al [financiamiento del Estado][6], pero voy a poner el resultado primero, porque "a la mayoría le da pereza leer más de 120 caracteres.
 
 ## Respuestas
 
@@ -79,3 +79,4 @@ Pueden revisar el detalle [en esta planilla de cálculo][1].
 [3]: http://observatorio.ministeriodesarrollosocial.gob.cl/documentos/Casen2013_Evolucion_Distibucion_Ingresos.pdf "Distribución del Ingreso"
 [4]: http://www.sii.cl/pagina/valores/global/igc2014.htm "TABLA DE IMPUESTO GLOBAL COMPLEMENTARIO 2014"
 [5]: http://collabmarket.org/2010/12/24/costos-fijos-en-el-modelo-economico-actual/ "Lucro y el rol social del Capitalismo"
+[6]: http://www.bcn.cl/datos/visualizaciones/presupuesto_de_la_nacion/index.html "Presupuesto 2015"
